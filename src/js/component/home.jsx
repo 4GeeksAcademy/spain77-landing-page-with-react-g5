@@ -1,5 +1,9 @@
 import React from "react";
+ Cards
 import { Navbar } from "./Navbar.jsx";
+import { Jumbotron } from "./Jumbotron.jsx";
+import { Navbar } from "./Navbar.jsx";
+
 import { Cards } from "./Cards.jsx";
 
 const Home = () => {
@@ -7,6 +11,14 @@ const Home = () => {
 		<>
 			<Navbar />
 			<Cards />
+ jumbotron
+
+			<Jumbotron/>
+
+			<Navbar/>
+ develop
+
+develop
 		</>
 	);
 };
