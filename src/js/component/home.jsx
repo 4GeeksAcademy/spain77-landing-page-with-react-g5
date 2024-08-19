@@ -1,10 +1,7 @@
 import React from "react";
  Cards
-
 import { Navbar } from "./Navbar.jsx";
-//include images into your bundle
- develop
-import rigoImage from "../../img/rigo-baby.jpg";
+import { Jumbotron } from "./Jumbotron.jsx";
 import { Cards } from "./Cards.jsx";
 
 const Home = () => {
@@ -12,6 +9,8 @@ const Home = () => {
 		<>
 Cards
 			<Cards />
+
+			<Jumbotron/>
 
 			<Navbar/>
  develop
